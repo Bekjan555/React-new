@@ -1,0 +1,78 @@
+.header {
+  padding-top: 30px;
+}
+
+.header__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header img {
+  max-width: 18px;
+}
+
+.logo__link {
+  color: #408b40;
+  font-family: "Bebas Neue", cursive;
+  font-size: 46px;
+  font-weight: 700;
+  letter-spacing: 5px;
+}
+
+.nav__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nav__item {
+  margin-right: 10px;
+}
+
+.nav__item:last-child {
+  margin: 0;
+}
+
+.nav__link {
+  font-size: 16px;
+  letter-spacing: 2px;
+  color: #7b7b7b;
+  font-weight: 400;
+  font-family: "Bebas Neue";
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  position: relative;
+  overflow: hidden;
+  padding: 0 20px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.nav__link__before {
+  position: absolute;
+  content: "";
+  top: 45%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #408b40;
+  -webkit-transform: translate(-25% 50%);
+          transform: translate(-25% 50%);
+}
+
+.nav__link:hover {
+  color: #408b40;
+  text-decoration: line-through;
+}
+
+.nav__link:hover__before {
+  width: 175%;
+}
+/*# sourceMappingURL=styles.css.map */
