@@ -53,6 +53,7 @@ ul {
   border: 2px solid transparent;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  text-transform: uppercase;
 }
 
 .btn::before {
