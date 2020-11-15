@@ -1,0 +1,134 @@
+/* @font-face kit by Fonts2u (https://fonts2u.com) */
+@font-face {
+  font-family: 'SteelfishRg-Regular';
+  src: url("./fonts/steelfish_rg.eot?") format("eot"), url("./fonts/steelfish_rg.woff") format("woff"), url("./fonts/steelfish_rg.ttf") format("truetype"), url("./fonts/steelfish_rg.svg#SteelfishRg-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.hero {
+  background: url("../../assets/hero-bg.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 84vh;
+}
+
+.hero__content {
+  padding-top: 9.76562vh;
+  padding-left: 7.14286vw;
+}
+
+.hero__product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 9.76562vh 4.88281vh 5.85938vh 2.92969vh;
+  max-width: 39.0625vh;
+  background-color: #fff;
+}
+
+.hero__title {
+  font-family: "Bebas Neue";
+  font-size: 6.44531vh;
+  font-weight: 700;
+  line-height: 6.05469vh;
+  color: #408b04;
+}
+
+.hero__suptitle {
+  font-family: "Bebas Neue";
+  font-size: 2.53906vh;
+  font-weight: 700;
+  line-height: 2.73438vh;
+  color: #2c3205;
+}
+
+.hero__description {
+  font-family: "SteelfishRg-Regular";
+  font-size: 2.34375vh;
+  font-weight: 400;
+  margin: 1.95312vh 0;
+  letter-spacing: 2px;
+  line-height: 3.02734vh;
+  color: #808080;
+}
+
+.hero__price {
+  font-family: "SteelfishRg-Regular";
+  font-size: 4.49219vh;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #2c3205;
+}
+
+.hero__btn {
+  margin-top: 2.92969vh;
+}
+
+.hero__shampoo {
+  position: absolute;
+  top: 31.25vh;
+  left: 50%;
+  max-width: 39.0625vh;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  height: 68.35938vh;
+}
+
+.hero__leafs {
+  position: relative;
+}
+
+.hero__leafs li {
+  width: 24.41406vh;
+}
+
+.hero__leafs li img {
+  width: 100%;
+}
+
+.hero__leaf {
+  position: absolute;
+}
+
+.hero .leaf--1 {
+  bottom: -31.25vh;
+  right: 0;
+}
+
+.hero .leaf--2 {
+  bottom: -50.78125vh;
+  left: -9.76562vh;
+}
+
+.hero .leaf--3 {
+  bottom: -50.78125vh;
+  left: -9.76562vh;
+}
+
+.hero .leaf--4 {
+  bottom: -50.78125vh;
+  left: -9.76562vh;
+}
+
+.hero .leaf--5 {
+  bottom: -50.78125vh;
+  left: 41.01562vh;
+}
+
+.hero .leaf--6 {
+  bottom: -21.48438vh;
+  left: 18.06641vh;
+}
+
+.hero__natural {
+  position: absolute;
+  right: 7.14286vw;
+  top: 7.14286vw;
+  width: 35.71429vw;
+}
+/*# sourceMappingURL=styles.css.map */

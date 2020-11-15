@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1430 700" width="1430" height="700">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #d2c4b6 } 
+		.shp1 { fill: #ffffff;stroke: #ffffff } 
+		.shp2 { fill: #408b04 } 
+	</style>
+	<g id="Group 5">
+		<path id="Rectangle 6" class="shp0" d="M0 0L1430 0L1430 700L0 700L0 0Z" />
+		<path id="Ellipse 1" class="shp1" d="M706.5 295C735.49 295 759 318.5 759 347.5C759 376.49 735.49 400 706.5 400C677.51 400 654 376.49 654 347.5C654 318.5 677.51 295 706.5 295Z" />
+		<path id="Shape 3" class="shp2" d="M719.13 347.72L700.32 336.87L700.32 358.58L719.13 347.72" />
+	</g>
+</svg>

@@ -1,0 +1,21 @@
+.video {
+  background-color: #d2c4b6;
+}
+
+.video__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.playButton {
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

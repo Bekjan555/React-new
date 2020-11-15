@@ -1,0 +1,13 @@
+.video{
+    background-color: #d2c4b6;
+    &__btn{
+        display: flex;
+        min-height: 100vh;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.playButton {
+     cursor: pointer;
+}

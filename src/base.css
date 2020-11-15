@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+/* @font-face kit by Fonts2u (https://fonts2u.com) */
+@font-face {
+  font-family: 'SteelfishRg-Regular';
+  src: url("./fonts/steelfish_rg.eot?") format("eot"), url("./fonts/steelfish_rg.woff") format("woff"), url("./fonts/steelfish_rg.ttf") format("truetype"), url("./fonts/steelfish_rg.svg#SteelfishRg-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 87.85714vw;
+  margin: 0 auto;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+}
+
+.btn {
+  font-family: "Bebas Neue";
+  font-size: 1.75781vh;
+  font-weight: 700;
+  position: relative;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  background-color: #408b04;
+  padding: 1.95312vh 4.88281vh 1.95312vh 2.92969vh;
+  color: #fff;
+  letter-spacing: 9px;
+  border: 2px solid transparent;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  right: 10%;
+  top: 50%;
+  width: 0;
+  height: 0;
+  border-top: 0.58594vh solid transparent;
+  border-left: 1.17188vh solid #fff;
+  border-bottom: 0.58594vh solid transparent;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  border-color: #408b04;
+  background-color: #fff;
+  color: #408b04;
+}
+
+.btn:hover::before {
+  border-left: 1.17188vh solid #408b04;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.title {
+  font-family: "Bebas Neue";
+  font-size: 6.44531vh;
+  font-weight: 700;
+  line-height: 6.05469vh;
+  color: #408b04;
+}
+
+.subtitle {
+  font-family: "Bebas Neue";
+  font-size: 2.53906vh;
+  font-weight: 700;
+  line-height: 2.73438vh;
+  color: #2c3205;
+}
+
+.description {
+  font-family: "SteelfishRg-Regular";
+  font-size: 2.34375vh;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 3.02734vh;
+  color: #808080;
+}
+
+img {
+  max-width: 100%;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+/*# sourceMappingURL=base.css.map */
