@@ -1,5 +1,6 @@
 import React from "react";
 import "./_style.scss";
+import Atabek from "../../assets/Atabek.jpg" ;
 
 
 const New = () => {
@@ -19,7 +20,7 @@ const New = () => {
             <input className="new__input" placeholder="Your email" type="text"/>
           </div>
           <div className="col-6 new__item">
-            
+            <img src={Atabek} alt=""/>
           </div>
         </div>
       </div>
