@@ -1,3 +1,5 @@
+@import '../global';
+
 .new {
     &__conent {
         align-items: center;
@@ -12,6 +14,9 @@
             border: 2px solid transparent;
             background-color: #408b04;
             color: #fff;
+        }
+        &::before {
+            content: '';
         }
     }
     &__item {

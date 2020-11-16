@@ -1,3 +1,4 @@
+import './base.scss';
 import { Route, Router } from 'react-router-dom';
 import Header from './components/header';
 import Hero from './components/hero';
@@ -5,7 +6,6 @@ import Products from './components/products';
 import Example from './components/footer';
 import Video from './components/video';
 import New from './components/news';
-import './base.scss';
 
 
 const App = () => {

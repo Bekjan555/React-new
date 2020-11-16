@@ -13,9 +13,11 @@ const New = () => {
             <p className="new__description description">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             </p>
-            <a href="#" className="new__btn btn">
+            <a href="#" className="btn new__btn">
               your email
+              &#10144;
             </a>
+            
           </div>
           <div className="new__img col-6">
             <img
