@@ -37,7 +37,7 @@ const Header = () => {
                 </Link>
               </li>
               <li className='nav__item'>
-                <Link to='/aiza' className='nav__link'>
+                <Link to='/footer' className='nav__link'>
                   Women Product
                 </Link>
               </li>
