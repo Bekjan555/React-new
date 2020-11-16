@@ -1,4 +1,4 @@
-
+import React from 'react';
 import ProductItem from './productItem';
 import { obj } from './backend';
 

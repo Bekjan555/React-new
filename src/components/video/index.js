@@ -1,5 +1,5 @@
 import playButton from "../../assets/Ellipse 1.svg";
-import './style.scss';
+import './_styles.scss';
 const Video = () => {
     return (
         <section className="video">

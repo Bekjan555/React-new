@@ -1,4 +1,4 @@
-import "./styles.scss";
+import "./_style.scss";
 
 const New = () => {
   return (
@@ -11,15 +11,15 @@ const New = () => {
               Send me your email address
             </h3>
             <p className="new__description description">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed d
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             </p>
             <a href="#" className="new__btn btn">
               your email
             </a>
           </div>
-          <div className="col-6">
+          <div className="new__img col-6">
             <img
-            src="https://seo-studio.pro/assets/cache_image/upload/img/news/mnemonika_html_01_1280x720_dec.webp"
+            src="https://st.mngbcn.com/rcs/pics/static/T7/fotos/S20/77009224_OR_D4.jpg?ts=1603814660971&imwidth=451&imdensity=1"
             alt=""
           />
           </div>
@@ -29,5 +29,5 @@ const New = () => {
     </section>
   );
 };
-console.log(New);
+
 export default New;

@@ -1,0 +1,30 @@
+.new {
+    &__conent {
+        align-items: center;
+        margin-top: vh(170);
+    }
+    &__btn {
+        width: vh(400);
+        border-color: #408b04;
+        background-color: #fff;
+        color: #caccc0;
+        &:hover {
+            border: 2px solid transparent;
+            background-color: #408b04;
+            color: #fff;
+        }
+    }
+    &__item {
+        padding-right: vh(100);
+        box-sizing: border-box;
+    }
+    &__description {
+        max-width: vh(280);
+        padding: vh(30) 0 vh(50) 0;
+        box-sizing: border-box;
+    }
+    img {
+        width: vh(500);
+        height: vh(532);
+    }
+}

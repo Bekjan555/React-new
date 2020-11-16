@@ -4,8 +4,9 @@ import Hero from './components/hero';
 import Products from './components/products';
 import Example from './components/footer';
 import Video from './components/video';
-import New from './components/news'
+import New from './components/news';
 import './base.scss';
+
 
 const App = () => {
   return (
@@ -18,7 +19,7 @@ const App = () => {
       <Route exact path='/products' component={Products} />
       <Route exact path='/aiza' component={Example} />
       <Route exact path='/video' component={Video} />
-      <Route exact ='/' component={New}/>
+      <Route exact path='/new' component={New} />
     </div>
   );
 };
