@@ -1,4 +1,6 @@
+import React from "react";
 import "./_style.scss";
+
 
 const New = () => {
   return (
@@ -11,21 +13,14 @@ const New = () => {
               Send me your email address
             </h3>
             <p className="new__description description">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod
             </p>
-            <a href="#" className="btn new__btn">
-              your email
-              &#10144;
-            </a>
+            <input className="new__input" placeholder="Your email" type="text"/>
+          </div>
+          <div className="col-6 new__item">
             
           </div>
-          <div className="new__img col-6">
-            <img
-            src="https://st.mngbcn.com/rcs/pics/static/T7/fotos/S20/77009224_OR_D4.jpg?ts=1603814660971&imwidth=451&imdensity=1"
-            alt=""
-          />
-          </div>
-          
         </div>
       </div>
     </section>
